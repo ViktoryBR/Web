@@ -1,0 +1,31 @@
+body {
+	background: LightGray;
+}
+
+#shapka {
+	background: DarkSlateGray;
+	color: white;
+	font-size: 300%;
+	text-align: center;
+	font-family: fantasy;
+}
+
+p {
+	text-align: center;
+}
+
+button {
+	background: DimGrey;
+	font-size: 150%;
+	color: white;
+}
+
+.class1 {
+	text-align: center;
+	font-size: 150%;
+	width:1300px; /* ширина нашего блока */
+	height:150px; /* высота нашего блока */
+	background: LightGray ; /* цвет фона, белый */ /* размер и цвет границы блока */
+	overflow: auto; /* свойство для прокрутки по горизонтали. Автоматом, если больше блока */
+
+}
