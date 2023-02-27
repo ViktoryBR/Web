@@ -3,6 +3,7 @@ body {
 }
 
 #shapka {
+	margin-top: 10%;
 	background: DarkSlateGray;
 	color: white;
 	font-size: 300%;
@@ -21,10 +22,10 @@ button {
 }
 
 .class1 {
-	text-align: center;
+	margin-left: 35%;
 	font-size: 150%;
-	width:1300px; /* ширина нашего блока */
-	height:150px; /* высота нашего блока */
+	width:1300px; 
+	height:150px; 
 	background: LightGray ; 
 	overflow: auto; /* свойство для прокрутки  */
 
