@@ -1,51 +1,20 @@
 <html>
    <head>
       <link rel="stylesheet" type="text/css" href="laba2.css">
+      <script src="lab2js.js" defer></script>
+      </script>
       <title>Список дел</title>
    </head>
    <body>
       <h1 id="shapka" >Список дел</h1>
-      <p>
-         <input style=" border-radius:20px; border: 3px; font-size: 150%; " type="text" >
-         <button>Добавить</button> <br> 
+      <p id="myDIV">
+         <input  id="my" style=" border-radius:20px; border: 3px; font-size: 150%; " type="text" >
+         <span  class="button" onclick="newElement()" >Добавить</span> <br> 
       </p>
       <div class="class1" >
-         <div class="color">
-            <input  type="checkbox" > Сходить к стоматологу <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Забрать вещи <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Сшить платье <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Разобрать документы <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Помыть посуду <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Выгулять собаку <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Поиграть с братом <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Помыть машину <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Позвонить бабушке <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Сходить в магазин <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Сварить суп <br>
-         </div>
-         <div class="color">
-            <input  type="checkbox" > Поиграть с братом <br>
-         </div>
+         <ul id="myUL"  >
+           
+         </ul>
       </div>
    </body>
 </html>

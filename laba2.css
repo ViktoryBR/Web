@@ -15,14 +15,19 @@ p {
 	text-align: center;
 }
 
-button {
+.button {
 	background: DimGrey;
 	font-size: 150%;
 	color: white;
+	cursor: pointer;
+	border-radius: 30px;
+	padding: 5px;
+  	
 }
 
 .class1 {
 	margin-left: 40%;
+	cursor: pointer;
 	font-size: 150%;
 	width:350px; 
 	height:150px; 
@@ -30,11 +35,18 @@ button {
 	overflow: auto; /* свойство для прокрутки  */
 }
 
-.color:nth-child(odd){
+ul li:nth-child(odd){
 	background: LightSlateGray;
 	color: black;
 }
-.color:nth-child(even){
-	background: #b7b7b7;
-	color: white;
+.close {
+  float: right;
+  
 }
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+
